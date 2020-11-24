@@ -565,7 +565,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9d48ee92eef951c458797993a95daaaa, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -729,9 +729,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3113836115639822971, guid: 98090ec7736f7cc45894ce0477b1f88d,
         type: 3}
+      propertyPath: ballSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113836115639822971, guid: 98090ec7736f7cc45894ce0477b1f88d,
+        type: 3}
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 1847770072}
+    - target: {fileID: 3113836115639822971, guid: 98090ec7736f7cc45894ce0477b1f88d,
+        type: 3}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 56f0ea1537f9fd440ba13f43d36698bc, type: 3}
+    - target: {fileID: 3113836115639822971, guid: 98090ec7736f7cc45894ce0477b1f88d,
+        type: 3}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d48ee92eef951c458797993a95daaaa, type: 3}
+    - target: {fileID: 3113836115639822971, guid: 98090ec7736f7cc45894ce0477b1f88d,
+        type: 3}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: e8694bfc3f9e9c94fb078bb919408d69, type: 3}
+    - target: {fileID: 3113836115639822971, guid: 98090ec7736f7cc45894ce0477b1f88d,
+        type: 3}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: e0f54a39c1de6be46985f64b2d8bb020, type: 3}
+    - target: {fileID: 3113836115639822971, guid: 98090ec7736f7cc45894ce0477b1f88d,
+        type: 3}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: bc89709f38a51ec48953c3686f9afae0, type: 3}
     - target: {fileID: 3113836115639822972, guid: 98090ec7736f7cc45894ce0477b1f88d,
         type: 3}
       propertyPath: m_Name
